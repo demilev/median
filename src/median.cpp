@@ -43,10 +43,3 @@ double MedianStructure::getMedian()
 
     return max_heap.top();
 }
-
-int main()
-{
-    MedianStructure median_structure = MedianStructure();
-    median_structure.insert(1).insert(2).insert(3).insert(4).insert(5);
-    std::cout << median_structure.getMedian() << "\n";
-}

@@ -4,5 +4,5 @@
 
 TEST_CASE( "median of 0 elements is 0" ) {
     MedianStructure m;
-	REQUIRE( m.getMedian() == 0);
+	REQUIRE( m.getMedian() == 1);
 }
