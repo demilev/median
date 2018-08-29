@@ -10,7 +10,6 @@ class MedianStructure
         
         std::priority_queue<double> max_heap; 
         std::priority_queue<double, std::vector<double>, std::greater<double>> min_heap;
-        enum TransferType {FromMaxToMin, FromMinToMax};
         void transfer(std::priority_queue<double, std::vector<double>, auto>&, std::priority_queue<double, std::vector<double>, auto>&);
     
     public:

@@ -33,6 +33,7 @@ double MedianStructure::getMedian()
 {
     if (max_heap.empty())
     {   
+    	// return 0 on empty because 0 is the neutral element of addition
         return 0;
     }   
     
